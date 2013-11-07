@@ -25,8 +25,9 @@ game.resources = [
    
    {name: "zombie", type:'image', src: "data/img/sprite/zombieproto.png"},
    
-   {name: "dst-inertexponent", type: "audio", src: "data/bgm/", channel : 1},
-
+   {name: "zombiesmaintheme", type: "audio", src: "data/bgm/", channel : 1},
+   
+   //{name: "nuclear", type: "audio", src: "data/bgm/", channel : 1},
 
     
 

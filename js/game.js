@@ -52,7 +52,8 @@ var game = {
                 me.input.bindKey(me.input.KEY.DOWN, "down");
 		// Start the game.
 		me.state.change(me.state.PLAY);
-                
-                me.audio.playTrack("DST-InertExponent");
+                me.audio.enable();
+                //me.audio.playTrack("nuclear");
+                me.audio.playTrack("zombiesmaintheme");
 	}
 };
