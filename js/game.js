@@ -52,8 +52,8 @@ var game = {
                 me.input.bindKey(me.input.KEY.DOWN, "down");
 		// Start the game.
 		me.state.change(me.state.PLAY);
-                me.audio.enable();
+                //me.audio.enable();
                 //me.audio.playTrack("nuclear");
-                me.audio.playTrack("zombiesmaintheme");
+                me.audio.play("zombiesmaintheme",false);
 	}
 };
